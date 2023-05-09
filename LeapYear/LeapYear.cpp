@@ -2,12 +2,15 @@
 //
 
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
 int main()
 {
-;
+	int yearToCheck = 2000;
+	cout << "Give this progam a year, and it will check if it is a leap year.\nWhat year are you checking? ";
+	cin >> yearToCheck;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
