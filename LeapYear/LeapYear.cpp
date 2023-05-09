@@ -8,6 +8,12 @@ using namespace std;
 
 int main()
 {
+	/*
+
+	D6 = (R % 6) + 1
+	Gives range of 1 through 6
+
+	*/
 	int yearToCheck = 2000;
 	cout << "Give this progam a year, and it will check if it is a leap year.\nWhat year are you checking? ";
 	cin >> yearToCheck;
